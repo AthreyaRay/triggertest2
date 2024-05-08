@@ -5,4 +5,5 @@ steps:
 
 - label: "Trigger Pipeline B"
   trigger: "skiptest123"
+  command: "sleep 10"
   depends_on: "waiter"
